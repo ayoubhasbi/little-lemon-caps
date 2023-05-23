@@ -1,0 +1,49 @@
+.reservation__title {
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    margin-top: 20px;
+}
+.reservation__img {
+    width: calc(50% - 20px);
+    height: 100vh;
+}
+.restaurant__img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+
+}
+.error-message {
+    font-size: small;
+    color: #f00;
+}
+.payment-form__title {
+    display: flex;
+    align-items: center;
+    background-color: #495E57;
+    padding: 0 70px;
+}
+.icon {
+    background: none;
+    width: 50px;
+    height: 50px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 30px;
+}
+.reservation__title {
+    font-size: 30px;
+    flex: 1;
+}
+@media screen and (max-width: 768px) {
+    .reservation__img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .payment-form__title {
+        padding: 0 20px;
+    }
+}

@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ----- Hero Section -----*/
+.hero__info {
+    width: 40%;
+}
+.section__title {
+    font-size: 45px;
+    color:#F4CE14
+}
+.hero__title {
+    font-size: 25px;
+    color: #fff;
+    margin-bottom: 40px;
+}
+.hero__info p {
+    color: #fff;
+}
+.img__container {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.hero__img {
+    width: 300px;
+    border-radius: 10px;
+}
+/* ----- Highlight Section -----*/
+.black__title {
+    color: #000;
+}
+/* ----- About Section -----*/
+.about__info {
+    width: calc(50% - 30px);
+    /*width: 400px;*/
+}
+.about__image {
+    position: relative;
+    width: calc(50% - 30px);
+    height: 300px;
+}
+.about__image img {
+    width: 220px;
+    border: 8px solid #495E57;
+    position: absolute;
+    top: 0;
+    right :0;
+}
+.about__image img:first-child {
+    top: 30px;
+    right: 30px;
+}
+
+/* ----- Footer -----*/
+.footer {
+    background-color: #D9D9D9;
+}
+.footer ul {
+    list-style: none;
+}
+.footer ul a {
+    text-decoration: none;
+    color: #212529;
+}
+.footer ul li a:hover {
+    color: #22a6b3;
+    transition: .3s;
+}
+@media screen and (max-width: 600px) {
+    .hero__img {
+        transform: scale(0.5);
+    }
+    .about__info {
+        width: calc(100% - 30px);
+        margin-bottom: 40px;
+    }
+}

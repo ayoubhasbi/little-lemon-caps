@@ -1,0 +1,15 @@
+.card {
+    width: 230px;
+    background-color: #fff;
+    padding: 20px;
+}
+.img__container--2 img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 6px solid #F4CE14;
+}
+.review__star {
+    width: 20px;
+}
+/*@media*/
